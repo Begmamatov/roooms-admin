@@ -7,7 +7,43 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ant-menu>.ant-menu-item-selected,
+.ant-menu>.ant-menu-submenu-selected {
+  background-color: #F25019 !important;
+}
+
+.ant-menu>.ant-menu-item:active,
+.ant-menu>.ant-menu-submenu:active,
+.ant-menu>.ant-menu-submenu-inline:active,
+.ant-menu>.ant-menu-submenu-title:active,
+.ant-menu>.ant-menu-submenu-selected,
+.ant-menu>.ant-menu-submenu>.ant-menu-submenu-title:active {
+  background-color: #f24f1990 !important;
+}
+
+
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url('fonts/Gilroy-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: url('fonts/Gilroy-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Gilroy SamiBold';
+  src: url('fonts/Gilroy-SemiBold.ttf');
 }
